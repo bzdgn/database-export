@@ -1,0 +1,16 @@
+--CREATE SCHEMA IF NOT EXISTS test AUTHORIZATION sa;
+
+--CREATE SCHEMA IF NOT EXISTS deneme AUTHORIZATION sa;
+
+CREATE TABLE books ( 
+   id INT NOT NULL, 
+   title VARCHAR(50) NOT NULL, 
+   author VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE authors ( 
+   id INT NOT NULL, 
+   firstname VARCHAR(50) NOT NULL, 
+   lastname VARCHAR(20) NOT NULL,
+   age INT NOT NULL
+);
